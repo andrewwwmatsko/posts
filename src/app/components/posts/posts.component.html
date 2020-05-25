@@ -1,0 +1,4 @@
+<div *ngFor="let post of posts">
+    {{ post.title }}
+    <button (click)="viewPosts(post.id)">View Post</button>
+</div>
